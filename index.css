@@ -1,0 +1,262 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.one{
+    background-image: url("imgs/datacenter.jpg");
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    min-height: 100vh;
+    /* height: auto; */
+    max-height: 100vh;
+    overflow-x: hidden;
+    
+}
+.oned{
+    color: #ffffff;
+    float: right;
+    padding: 30px;
+    font-size: 25px;
+}
+.oned a{
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+}
+.oned a:visited{
+    color: #ffffff;
+}
+.oned a:hover{
+    color: slategray;
+}
+.two{
+    display: none;
+}
+.three{
+    display: none;
+}
+.rat{
+    display: none;
+}
+.twod{
+    color: #ffffff;
+    padding-top: 200px;
+    padding-left: 2vw;
+    /* padding-bottom: 200px; */
+    font-size: 7vw;
+}
+.off{
+    color:#ffffff;
+    padding-left: 2vw;
+    font-size: 1.5vw;
+}
+.horf a{
+    padding: 2vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    color: #369fc2;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.horf a:visited{
+    text-decoration: none;
+    color: #369fc2;
+}
+.horf a:hover{
+    color: slategray;
+}
+.horrf{
+    float: right;
+}
+.horrf a{
+    text-decoration: none;
+    padding: 1vw;
+    font-size: 30px;
+}
+.twod span{
+    color: #ffffff;
+    font-size: 3vw;
+}
+.outter{
+    display: none;
+}
+.rat{
+    color: #369fc2;
+    font-size: 5vw;
+    font-weight: 20px;
+    text-align: center;
+    padding-top: 5vw;
+}
+.sub{
+    font-size: 2vw;
+    color: slategray;
+    padding-top: 5px;
+}
+.abo{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 2vw;
+    
+}
+.abo img{
+    width:25vw;
+}
+.aboone{
+    display: flex;
+    padding-right: 2.5vw;
+}
+.abotwo{
+    display: flex;
+    padding-left: 2.5vw;
+}
+.plate{
+    background-color:rgb(246, 246, 240) ;
+    width: 15vw;
+    text-align: center;
+    padding-top: 7vw;
+    color: #369fc2;
+    font-size: 2vw;
+}
+@media screen and (max-width: 480px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .off{
+        display: none;
+    }
+    .one{
+        background-image: url("imgs/datacenter.jpg");
+        background-size: cover;
+        background-position: right;
+        width: 100%;
+        /* height: auto; */
+        min-height: 100px;
+        overflow-x: hidden;
+    }
+    .oned{
+        color: white;
+        float: right;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .oned a{
+        font-size: 10px;
+        padding: 2px;
+    }
+    .two{
+        display: block;
+    }
+    .three{
+        display: block;
+    }
+    .rat{
+        display: block;
+    }
+    div a{
+        text-decoration: none;
+    }
+    div a:visited{
+        color: #ffffff;
+        text-decoration: none;
+        
+    }
+    div a:hover{
+        color: slategray;
+    }
+    div span{
+        padding: 5px;
+    }
+    .twod{
+        color: white;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-bottom: 60px;
+        font-size: larger;
+        font-weight: bolder;
+
+    }
+    .twod span{
+        font-size: smaller;
+        font-weight: lighter;
+    }
+    .out{
+        display: none;
+    }
+    .outter{
+        display: block;
+    }
+    .space{
+        min-height: 20px;
+        background-color: #bad8e2;
+    }
+    .threed {
+        margin: auto;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: #369fc2;
+        color: #ffffff;
+
+    }
+    .threed span.bold{
+        font-weight: bolder;
+    }
+    .threed a{
+        padding: 10px;
+        background-color: #bad8e2;
+        border-radius: 20px;
+        color: #ffffff;
+    }   
+    .spacetwo{
+        min-height: 20px;
+        background-color: #bad8e2;
+        padding: 20px;
+        color: #369fc2;
+        text-align: left;
+    } 
+    .pis img{
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+    }
+    .sfoot{
+        background-color: #bad8e2;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .sfoot a{
+        padding: 20px;
+    }
+    footer{
+        padding-top: 30px;
+        background-color: #369fc2;
+        color: #ffffff;
+        text-align: center;
+    }
+    footer span{
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .fone{
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .ftwo{
+        padding: 10px;
+    }
+    .fthree{
+        padding: 10px;
+    }
+
+        
+}
