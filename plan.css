@@ -143,11 +143,14 @@ body{
         display: block;
     }
     .threed{
-        background-color: rgb(100, 135, 170);
-        color: white;
+        /* background-color: rgb(100, 135, 170); */
+        color: rgb(100, 135,170);
         min-height: 30px;
+        text-align: center;
         font-size: 6vw;
         padding-left: 2vw;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
     }
     .fourd{
         display: none;
@@ -171,22 +174,36 @@ body{
         font-size: smaller;
     }
     .gi{
-        max-width: 100%;
+        display: block;
+        max-width: 80%;
         padding-bottom: 10px;
+        justify-content: center;
+        margin: auto;
+        justify-self: center;
+        align-self: center;
     }
     .gil{
-        max-width: 100%;
+        display: block;
+        max-width: 80%;
         padding-bottom: 10px;
+        margin: auto;
     }
     .gir{
-        max-width: 100%;
+        display: block;
+        max-width: 80%;
+        margin: auto;
         /* padding-bottom: 10px; */
     }
     .gis{
-        max-width: 100%;
+        max-width: 80%;
+        display: block;
+        margin: auto;
+        padding-bottom: 10px;
     }
     .giu{
-        max-width: 100%;
+        max-width: 80%;
+        display: block;
+        margin: auto;
     }
     .sele{
         min-height: 50px;
