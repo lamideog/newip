@@ -1,0 +1,140 @@
+body{
+    overflow-x: hidden;
+    width: 100vw;
+}
+header{
+    text-align: right;
+    font-size: 1.5vw;
+}
+header a{
+    color: rgb(26, 100, 129);
+    text-decoration: none;
+    padding: 1.5vw;
+}
+header a:hover{
+    text-decoration: none;
+    counter-reset: rgb(26, 100, 129);
+}
+section{
+    padding-top: 10vw;
+}
+.talk{
+    font-size: 5vw;
+    color: rgb(26, 100, 129);
+    position: absolute;
+    top: 25vw;
+
+}
+.burg {
+    width: 60vw;
+
+}
+.orr{
+    background-color: rgb(183, 191, 199);
+    opacity: 40%;
+    height: 40vw;
+    color: white;
+    text-align: center;
+    padding-top: 5vw;
+}
+.flor{
+    display: flex;
+    padding-top: 5vw;
+    justify-content:space-evenly;
+}
+.cards{
+    background-color: white;
+    display: inline-block;
+    width: 20vw;
+    height: 25vw;
+    color: rgb(26, 100, 129);
+}
+.card:hover{
+    box-shadow: 5px 10px black;
+    
+}
+.ice{
+    min-width: 100px;
+    display: block;
+   
+    font-size: 3vw;
+    
+}
+.cardone{
+    border-radius: 2vw;
+    text-align: center;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 2vw;
+}
+.cardtwo{
+    border-radius: 2vw;
+    text-align: center;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 2vw;
+}
+.lag{
+    font-size: 3vw;
+}
+.pho{
+    
+    margin: auto;
+    margin-top: 10vw;
+    text-align: center;
+    color: rgb(26, 100, 129);
+    font-size: 5vw;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        max-width: 100vw;
+        overflow-x: none;
+    }
+    .orr{
+        height: auto;
+        padding-bottom: 10vw;
+    }
+    .flor{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        column-gap: 5vw;
+
+    }
+    .lag{
+        font-size: 7vw;
+    }
+    .cards{
+        width: 80vw;
+        height: 50vw;
+        font-size: 5vw;
+        padding-top: 5vw;
+    }
+    .cardone {
+        margin-bottom: 10vw;
+    }
+    header{
+        font-size: 3vw;
+    }
+    section{
+        height: 70vh;
+        text-align: center;
+        padding-top: 10vh;
+        margin: auto;
+    }
+    .burg{
+        width: 100vw;
+    }
+    
+    .talk{
+        display: block;
+        padding-top: 10vh;
+        font-size: 10vw;
+        position: static;
+    }
+    
+  
+}
