@@ -109,19 +109,21 @@ body{
     }
     .oneo{
         display: block;
-        background-image:url("imgs/itr.png"), linear-gradient(to top right, #cae8f1, #369);
-        background-size: 50vw, 100%;
+        background-image:/*url("imgs/itr.png"),*/ linear-gradient(to top right, #cae8f1, #369);
+        background-size: /*50vw,*/ 100%;
         background-position: left;
         background-repeat: no-repeat;
         width: 100vw;
-        height: 200px;
+        /* height: 200px; */
+        height: 75vh;
         color: white;
         overflow-x: hidden;
     }
     .oned{
         float: right;
-        font-size: 3vw;
+        font-size: 5vw;
         padding-top: 10px;
+        padding-right: 1vw;
     }
     .oned a{
         color: white;
@@ -131,13 +133,26 @@ body{
     }
     .twod{
         display: block;
-        position: relative;
+        /* position: relative;
         top: 20vw;
-        left:50vw;
-        padding-top:3vw;
+        left:50vw; */
+        /* padding-top:3vw;
         padding-bottom: 8vw;
-        padding-left: 8vw;
+        padding-left: 8vw; */
         font-size: 5vw;
+        margin: auto;
+        text-align: center;
+    }
+    .twod img{
+        display: block;
+        width: 90vw;
+        padding-top: 10vh;
+        margin: auto;
+    }
+    .twod span{
+        display: block;
+        margin-top: 10vh;
+        font-size: 10vw;
     }
     .two{
         display: block;
@@ -230,5 +245,5 @@ body{
     .but :active{
         background-color: red;
     }
-    
+
 }
