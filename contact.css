@@ -87,6 +87,28 @@ section{
     color: rgb(26, 100, 129);
     font-size: 5vw;
 }
+.phoc a{
+    text-decoration: none;
+    color: rgb(26, 100, 129);
+}
+#lok{
+    background-color: rgb(183, 191, 199);
+    opacity: 40%;
+    padding: 7vw;
+    padding-top: 2vw;
+    margin-top: 2vw;
+    
+}
+#lor{
+    background-color: white;
+    padding: 5vw;
+    padding-left: 5vw;
+    border-radius: 2vw;
+}
+#lik{
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+}
 
 @media screen and (max-width: 480px){
     body{

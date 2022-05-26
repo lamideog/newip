@@ -17,9 +17,9 @@ function lagFunction() {
 }
 function ibFunction() {
     document.getElementById("gi")
-    .src="imgs/room.jpg";
+    .src="imgs/prooo.gif";
     document.getElementById("gil")
-    .src="imgs/room.jpg";
+    .src="imgs/prov.gif";
 
 }
 // function myFunction() {
@@ -30,3 +30,17 @@ function ibFunction() {
 //       x.style.display = "none";
 //     }
 //   }
+
+function ibPlan() {
+    var ibadanOne =document.getElementById('jeso')
+    ibadanOne.innerHTML = "IBADAN:";
+    var ibadanTwo =document.getElementById('hovv')
+    ibadanTwo.style.display = "block";
+}
+
+function lagPlan(){
+    var lagOne= document.getElementById('jeso')
+    lagOne.innerHTML = "LAGOS:";
+    var lagTwo =  document.getElementById('hovv')
+    lagTwo.style.display = "none";
+}

@@ -8,7 +8,7 @@ body{
     background-size: cover;
     background-position: right;
     width: 100%;
-    min-height: 100vh;
+    min-height: 300px;
     /* height: auto; */
     max-height: 100vh;
     overflow-x: hidden;
@@ -253,9 +253,11 @@ body{
     }
     .ftwo{
         padding: 10px;
+        text-align: start;
     }
     .fthree{
         padding: 10px;
+        text-align: end;
     }
 
         
